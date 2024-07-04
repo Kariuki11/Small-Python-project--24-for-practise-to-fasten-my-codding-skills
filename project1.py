@@ -28,3 +28,7 @@ while max(player_scores) < max_score:
     if should_roll.lower() != "y":
         break
     
+    value = roll()
+    if value == 1:
+        print("You rolled a 1! Turn down!.")
+    
