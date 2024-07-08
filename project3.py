@@ -11,6 +11,7 @@ def generate_problem():
     
     expr = str(left) + " " + operator + " " + str(right)
     answer = eval(expr)
-    return expr
+    return expr, answer
     
-generate_problem()
+expr, answer = generate_problem()
+print(expr, answer)
