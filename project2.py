@@ -16,5 +16,5 @@ for i, char in enumerate(story):
         words.add(word)
         start_of_word = -1
         
-print(words)
-    
+answers = {"<name>": "Ken"}
+answers  
