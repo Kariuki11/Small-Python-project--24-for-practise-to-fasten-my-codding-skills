@@ -9,8 +9,8 @@ def generate_problem():
     right = random.randint(MIN_OPERAND, MAX_OPERAND)
     operator = random.choice(OPERATORS)
     
-    expr = str(left) + " " + right + " " + str(operator)
-    print(expr)
+    expr = str(left) + " " + operator + " " + str(right)
+    answer = eval
     return expr
     
 generate_problem()
